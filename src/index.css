@@ -1,0 +1,15 @@
+:root {
+  --bg-dark-color: hsl(214, 17%, 15%);
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: var(--bg-dark-color);
+  color: white;
+}
