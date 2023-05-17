@@ -1,15 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
-  --bg-dark-color: hsl(214, 17%, 15%);
   font-size: 62.5%;
 }
 
 * {
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  color: white;
 }
 
 body {
   font-size: 1.6rem;
-  background-color: var(--bg-dark-color);
-  color: white;
+  background-color: hsl(214, 17%, 15%);
 }
